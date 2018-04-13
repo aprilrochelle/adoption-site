@@ -1,0 +1,67 @@
+{
+  "pets": [
+    {
+      "img": "https://boygeniusreport.files.wordpress.com/2016/11/puppy-dog.jpg?quality=98&strip=all&w=782",
+      "name": "Sparky",
+      "color": "tan",
+      "specialSkill": "juggling",
+      "type": "dog"
+    },
+    {
+      "img": "https://i.pinimg.com/736x/01/f4/15/01f41509c82b3f980c5aebc8f3f11bd2--spaniel-cocker-cockeri-spaniel.jpg",
+      "name": "Copper",
+      "color": "copper",
+      "specialSkill": "singing",
+      "type": "dog"
+    },
+    {
+      "img": "https://www.omlet.us/images/cache/1024/682/Dog-American_Cocker_Spaniel-a_gorgeous_american_cocker_spaniel_with_long_soft_ears.jpg",
+      "name": "Rhett",
+      "color": "black",
+      "specialSkill": "posing for the camera",
+      "type": "dog"
+    },
+    {
+      "img": "https://media.marshallspetzone.com/6797-thickbox_default/persian-kitten-blue-eyes-for-sale.jpg",
+      "name": "Coco",
+      "color": "white",
+      "specialSkill": "ignoring people",
+      "type": "cat"
+    },
+    {
+      "img": "http://www.pawculture.com/uploads/versions/chartreux---x----670-440x---.jpg",
+      "name": "Rufus",
+      "color": "grey",
+      "specialSkill": "stealing snacks",
+      "type": "cat"
+    },
+    {
+      "img": "http://support.michiganhumane.org/images/content/photos/large_41462.jpg",
+      "name": "Rusty",
+      "color": "tan/white",
+      "specialSkill": "barking",
+      "type": "cat"
+    },
+    {
+      "img": "https://truimg.toysrus.com/product/images/toy-story-rex-dinosaur--5EAD492C.zoom.jpg?fit=inside|1212.5:1212.5",
+      "name": "Horace",
+      "color": "green",
+      "specialSkill": "roofing",
+      "type": "dino"
+    },
+    {
+      "img": "http://images.dinosaurpictures.org/velociraptor_12_c4fd.jpg",
+      "name": "Wallace",
+      "color": "brown",
+      "specialSkill": "sculpting",
+      "type": "dino"
+    },
+    {
+      "img": "https://img1.cgtrader.com/items/804379/c5c4fbe02d/large/brontosaurus-3d-model-low-poly-max-obj-fbx-ma-mb-mtl.png",
+      "name": "Oretha",
+      "color": "brown",
+      "specialSkill": "needlepoint",
+      "type": "dino"
+    }
+  ]
+}
