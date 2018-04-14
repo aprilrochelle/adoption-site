@@ -1,28 +1,14 @@
-const fetchPets = require('./pets');
-const printToDom = require('./dom');
-const buttonEvents = require('./events');
+let petArray = [];
 
-let petList = [];
-
-function whenPetsLoad () {
-  petList = JSON.parse(this.responseText).pets;
-  printToDom(petList);
+const getPets = () => {
+  return petArray;
 };
 
-function ifPetsFail () {
-  console.error('Whoops!');
-};
-
-const initializer = () => {
-  fetchPets(whenPetsLoad, ifPetsFail);
-  buttonEvents();
-};
-
-const petArray = () => {
-  return petList;
+const setPets = (petList) => {
+  petArray = petList;
 };
 
 module.exports = {
-  initializer,
-  petArray,
+  getPets,
+  setPets,
 };
