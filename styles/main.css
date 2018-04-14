@@ -17,15 +17,20 @@ h1 {
   margin-right: 20px;
 }
 
+#unfilter {
+  display: block;
+  margin: 20px auto 0 auto;
+}
+
 .pic {
-  width: 60%;
+  width: 80%;
 }
 
 .pet-card {
   text-align: center;
   padding-top: 5px;
   margin-bottom: 25px;
-  height: 400px;
+  height: 500px;
   background-color: rgb(193, 128, 45);
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;

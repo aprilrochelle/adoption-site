@@ -17,7 +17,8 @@ function ifPetsFail () {
 
 const initializer = () => {
   fetchPets(whenPetsLoad, ifPetsFail);
-  buttonEvents();
+  buttonEvents.petButtonEvents();
+  buttonEvents.unfilterEvent();
 };
 
 module.exports = {

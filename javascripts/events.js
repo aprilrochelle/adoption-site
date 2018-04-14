@@ -15,6 +15,10 @@ const showFilteredPets = (e) => {
   dom(filteredPets);
 };
 
+const unfilterPets = () => {
+  dom(petArray);
+};
+
 const petButtonEvents = () => {
   const buttons = document.getElementsByClassName('btn');
   for (let i = 0; i < buttons.length; i++) {
@@ -22,4 +26,12 @@ const petButtonEvents = () => {
   };
 };
 
-module.exports = petButtonEvents;
+const unfilterEvent = () => {
+  const unfilterBtn = document.getElementById('unfilter');
+  unfilterBtn.addEventListener('click', unfilterPets);
+};
+
+module.exports = {
+  petButtonEvents,
+  unfilterEvent,
+};
