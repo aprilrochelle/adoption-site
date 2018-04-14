@@ -1,8 +1,11 @@
 const fetchPets = require('./pets');
 const printToDom = require('./dom');
+const buttonEvents = require('./events');
+
+let petList = [];
 
 function whenPetsLoad () {
-  const petList = JSON.parse(this.responseText).pets;
+  petList = JSON.parse(this.responseText).pets;
   printToDom(petList);
 };
 
@@ -12,6 +15,14 @@ function ifPetsFail () {
 
 const initializer = () => {
   fetchPets(whenPetsLoad, ifPetsFail);
+  buttonEvents();
 };
 
-module.exports = initializer;
+const petArray = () => {
+  return petList;
+};
+
+module.exports = {
+  initializer,
+  petArray,
+};
