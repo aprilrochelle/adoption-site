@@ -1,3 +1,41 @@
 body {
   background-color: tan;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.btn {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#unfilter {
+  display: block;
+  margin: 20px auto 0 auto;
+}
+
+.pic {
+  width: 80%;
+}
+
+.pet-card {
+  text-align: center;
+  padding-top: 5px;
+  margin-bottom: 25px;
+  height: 500px;
+  background-color: rgb(193, 128, 45);
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.buttons {
+  margin-bottom: 25px;
 }

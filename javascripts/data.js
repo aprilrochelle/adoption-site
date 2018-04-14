@@ -1,17 +1,14 @@
-const fetchPets = require('./pets');
-const printToDom = require('./dom');
+let petArray = [];
 
-function whenPetsLoad () {
-  const petList = JSON.parse(this.responseText).pets;
-  printToDom(petList);
+const getPets = () => {
+  return petArray;
 };
 
-function ifPetsFail () {
-  console.error('Whoops!');
+const setPets = (petList) => {
+  petArray = petList;
 };
 
-const initializer = () => {
-  fetchPets(whenPetsLoad, ifPetsFail);
+module.exports = {
+  getPets,
+  setPets,
 };
-
-module.exports = initializer;
