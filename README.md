@@ -1,6 +1,6 @@
 # Adoption Website
 ## Description
-Practice with modern JavaScript setup, event listeners and retrieval of data from JSON files by coding a pet adoption website.
+Practiced modern JavaScript setup with Browserify, event listeners and retrieval of data from JSON files by coding a pet adoption website.
 
 ## Screenshot
 ![Webpage](https://raw.githubusercontent.com/aprilrochelle/adoption-site/master/screen/adopt-screen.png)
