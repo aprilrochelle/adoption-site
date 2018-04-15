@@ -22,6 +22,27 @@
       "type": "dog"
     },
     {
+      "img": "https://www.what-dog.net/Images/faces2/scroll008.jpg",
+      "name": "Daisy",
+      "color": "brown",
+      "specialSkill": "modeling",
+      "type": "dog"
+    },
+    {
+      "img": "http://www.dogbreedslist.info/uploads/allimg/dog-pictures/French-Bulldog-1.jpg",
+      "name": "Freddy",
+      "color": "ivory",
+      "specialSkill": "dancing",
+      "type": "dog"
+    },
+    {
+      "img": "https://www.gov.ca.gov/wp-content/uploads/2018/03/Deputy-First-Dog.jpg",
+      "name": "Biscuit",
+      "color": "black",
+      "specialSkill": "fetching",
+      "type": "dog"
+    },
+    {
       "img": "https://media.marshallspetzone.com/6797-thickbox_default/persian-kitten-blue-eyes-for-sale.jpg",
       "name": "Coco",
       "color": "white",
@@ -43,7 +64,28 @@
       "type": "cat"
     },
     {
-      "img": "https://truimg.toysrus.com/product/images/toy-story-rex-dinosaur--5EAD492C.zoom.jpg?fit=inside|1212.5:1212.5",
+      "img": "http://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg",
+      "name": "Tiger",
+      "color": "tan/black",
+      "specialSkill": "tumbling",
+      "type": "cat"
+    },
+    {
+      "img": "https://static.boredpanda.com/blog/wp-content/uploads/2017/10/ninja-cats-photography-hisakata-hiroyuki-10-59f197289e003__880.jpg",
+      "name": "Lucky",
+      "color": "tan/black",
+      "specialSkill": "dancing",
+      "type": "cat"
+    },
+    {
+      "img": "http://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/russianbluehed.png?itok=3dlglcvn&resize=1100x619",
+      "name": "Buster",
+      "color": "grey",
+      "specialSkill": "howling",
+      "type": "cat"
+    },
+    {
+      "img": "http://www.allwhitebackground.com/images/3/3297.jpg",
       "name": "Horace",
       "color": "green",
       "specialSkill": "roofing",
@@ -57,9 +99,30 @@
       "type": "dino"
     },
     {
-      "img": "https://img1.cgtrader.com/items/804379/c5c4fbe02d/large/brontosaurus-3d-model-low-poly-max-obj-fbx-ma-mb-mtl.png",
+      "img": "http://www.samuseum.sa.gov.au/Upload/image-exhibitions/Dinosaur%20revolution/dino_ex-page.jpg",
+      "name": "Bernice",
+      "color": "grey/green",
+      "specialSkill": "gardening",
+      "type": "dino"
+    },
+    {
+      "img": "http://www.nhm.ac.uk/natureplus/servlet/JiveServlet/showImage/38-2037-23282/spinosaurus-bbc.jpg",
+      "name": "Gary",
+      "color": "brown/green",
+      "specialSkill": "paintng",
+      "type": "dino"
+    },
+    {
+      "img": "https://study.com/cimages/multimages/16/parasaupholus.jpg",
+      "name": "Earnestine",
+      "color": "green/blue",
+      "specialSkill": "interior design",
+      "type": "dino"
+    },
+    {
+      "img": "https://www.aspinallfoundation.org/media/1304/dinosaurs_dan-desborough.jpg?anchor=center&mode=crop&quality=75&width=768&height=412&rnd=131294749660000000",
       "name": "Oretha",
-      "color": "brown",
+      "color": "blue/grey",
       "specialSkill": "needlepoint",
       "type": "dino"
     }
